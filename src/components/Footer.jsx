@@ -7,7 +7,7 @@ function Footer() {
         <div className='container'>
         <footer className='footer'>
             <div>
-                <p> &copy; {footerYear} Polkomtel Sp. z o.o. Wszystkie prawa zastrzeżone </p>
+                <p> &copy; {footerYear} . Wszystkie prawa zastrzeżone </p>
             </div>
         </footer>
         </div>

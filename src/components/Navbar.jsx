@@ -3,7 +3,8 @@ import React from 'react';
 
 function Navbar() {
 
-    return (<div className='header2' style={{height: '500px' }}>
+    return (
+        <div className='header2' style={{height: '500px' }}>
             <div>
                 <a  href="#" id="navbarDropdown" role="button"
                    data-bs-toggle="dropdown" aria-expanded="false" style={{color: 'white' }}>

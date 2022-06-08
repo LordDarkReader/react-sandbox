@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from '../hooks/useFetch';
 
-function CustomerHookExample1() {
+function CustomHookExample1() {
     const {data, loading, error} = useFetch('https://jsonplaceholder.typicode.com/posts', {});
 
     if (loading) {
@@ -19,4 +19,4 @@ function CustomerHookExample1() {
     )
 }
 
-export default CustomerHookExample1
+export default CustomHookExample1
